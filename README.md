@@ -5,7 +5,8 @@ A simple pickerView just like the app lagou.
 
 # usage
 ## Copy the JKDatePicker folder to your project
-
+```objc
   [self.datePicker showWithSofar:YES resultBlock:^(NSString *resultString) {
        [sender setTitle:resultString forState:UIControlStateNormal];
    }];
+```
